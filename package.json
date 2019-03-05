@@ -1,0 +1,28 @@
+{
+  "name": "smooth-scrollbar-plugin-infinite-load",
+  "version": "0.0.1",
+  "description": "infinite load plugin for smooth-scrollbar",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "smooth",
+    "scrollbar",
+    "infinite",
+    "load"
+  ],
+  "author": "Senasiko",
+  "license": "MIT",
+  "dependencies": {
+    "smooth-scrollbar": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-terser": "^4.0.4"
+  }
+}
